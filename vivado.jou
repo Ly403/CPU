@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Jun 01 00:37:13 2022
+# Process ID: 3144
+# Current directory: D:/digital_logic/project/CPU31
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11748 D:\digital_logic\project\CPU31\CPU31.xpr
+# Log file: D:/digital_logic/project/CPU31/vivado.log
+# Journal file: D:/digital_logic/project/CPU31\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/digital_logic/project/CPU31/CPU31.xpr
+update_compile_order -fileset sources_1
+launch_simulation -install_path D:/digital_logic/modelsim_10.4c/_modelsim/win32 -noclean_dir
+launch_simulation -install_path D:/digital_logic/modelsim_10.4c/_modelsim/win32 -noclean_dir
+launch_simulation -install_path D:/digital_logic/modelsim_10.4c/_modelsim -noclean_dir
+compile_simlib -language all -dir {D:/xilinx_sim_lib} -simulator modelsim -simulator_exec_path {D:/digital_logic/modelsim_10.4c/_modelsim/win32} -library all -family  all
+launch_simulation -install_path D:/digital_logic/modelsim_10.4c/_modelsim/win32 -noclean_dir
