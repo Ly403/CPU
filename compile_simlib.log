@@ -1,0 +1,52 @@
+##########################################################################
+#
+# Application : compile_simlib (2016.2)
+# File name   : compile_simlib.log
+#
+# #########################################################################
+Compiling libraries for 'modelsim' simulator in 'D:\xilinx_sim_lib'
+Creating modelsim.ini file...
+Copying D:\digital_logic\modelsim_10.4c\_modelsim\win32/../modelsim.ini to modelsim.ini
+** Warning: (vlib-34) Library already exists at "D:/xilinx_sim_lib/secureip".
+
+Library verilog.secureip:verilog.axi_bfm will not be compiled, because precompiled library info is up to date.
+** Warning: (vlib-34) Library already exists at "D:/xilinx_sim_lib/secureip".
+
+Library verilog.secureip will not be compiled, because precompiled library info is up to date.
+compile_simlib[verilog.secureip]: 0 error(s), 2 warning(s), 25.00 % complete
+
+
+** Warning: (vlib-34) Library already exists at "D:/xilinx_sim_lib/unimacro".
+
+Library vhdl.unisim:vhdl.unimacro will not be compiled, because precompiled library info is up to date.
+** Warning: (vlib-34) Library already exists at "D:/xilinx_sim_lib/unifast".
+
+Library vhdl.unisim:vhdl.unifast will not be compiled, because precompiled library info is up to date.
+** Warning: (vlib-34) Library already exists at "D:/xilinx_sim_lib/unisim".
+
+Library vhdl.unisim:vhdl.secureip_vhdl_unisim will not be compiled, because precompiled library info is up to date.
+** Warning: (vlib-34) Library already exists at "D:/xilinx_sim_lib/unisim".
+
+Library vhdl.unisim will not be compiled, because precompiled library info is up to date.
+compile_simlib[vhdl.unisim]: 0 error(s), 3 warning(s), 50.00 % complete
+
+
+** Warning: (vlib-34) Library already exists at "D:/xilinx_sim_lib/unimacro_ver".
+
+Library verilog.unisim:verilog.unimacro will not be compiled, because precompiled library info is up to date.
+** Warning: (vlib-34) Library already exists at "D:/xilinx_sim_lib/unifast_ver".
+
+Library verilog.unisim:verilog.unifast will not be compiled, because precompiled library info is up to date.
+** Warning: (vlib-34) Library already exists at "D:/xilinx_sim_lib/unisims_ver".
+
+Library verilog.unisim will not be compiled, because precompiled library info is up to date.
+compile_simlib[verilog.unisim]: 0 error(s), 3 warning(s), 75.00 % complete
+
+
+** Warning: (vlib-34) Library already exists at "D:/xilinx_sim_lib/simprims_ver".
+
+Library verilog.simprim will not be compiled, because precompiled library info is up to date.
+compile_simlib[verilog.simprim]: 0 error(s), 1 warning(s), 100.00 % complete
+
+
+Copying setup file 'modelsim.ini' to 'D:\xilinx_sim_lib/modelsim.ini' ...
