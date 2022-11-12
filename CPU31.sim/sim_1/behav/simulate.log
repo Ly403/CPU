@@ -1,0 +1,53 @@
+# //  ModelSim SE 10.1c Jul 27 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {post_system_simulate.do} 
+# vsim -L unisims_ver -L unimacro_ver -L secureip -L xil_defaultlib -L dist_mem_gen_v8_0_10 -lib xil_defaultlib -voptargs=\"+acc\" xil_defaultlib.post_system xil_defaultlib.glbl 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.post_system(fast)
+# Loading work.cpu31(fast)
+# Loading work.pcreg(fast)
+# Loading work.Asynchronous_D_FF(fast)
+# Loading work.dec(fast)
+# Loading work.CU(fast)
+# Loading work.mux(fast)
+# Loading work.mux5(fast)
+# Loading work.ext(fast)
+# Loading work.ext5(fast)
+# Loading work.ext18(fast)
+# Loading work.add(fast)
+# Loading work.add4(fast)
+# Loading work.nPC(fast)
+# Loading work.alu(fast)
+# Loading work.II(fast)
+# Loading work.gpr(fast)
+# Loading work.dm(fast)
+# Loading work.imem(fast)
+# Loading dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: 86183  Hostname: LAPTOP-RHBK633D  ProcessID: 21188
+# 
+#           Attempting to use alternate WLF file "./wlft80d4ka".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft80d4ka
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+# ** Warning: (vsim-# ** Warning: (vsim-31) Unable to unlink file "D:/digital_logic/project/CPU31/CPU31.sim/sim_1/behav/msim/xil_defaultlib/_opt__lock".
+# 
+# No such file or directory. (errno = ENOENT)
+0.v(234)
+#    Time: 0 ps  Iteration: 0  Instance: /post_system/instructionMemory/inst
+# Causality operation skipped due to absense of debug database file

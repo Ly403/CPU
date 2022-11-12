@@ -1,0 +1,760 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue May 03 13:12:07 2022
+# Process ID: 4088
+# Current directory: D:/digital_logic/project/CPU31
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7916 D:\digital_logic\project\CPU31\CPU31.xpr
+# Log file: D:/digital_logic/project/CPU31/vivado.log
+# Journal file: D:/digital_logic/project/CPU31\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/digital_logic/project/CPU31/CPU31.xpr
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/datapath/ifu.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/datapath/ifu.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+file mkdir D:/digital_logic/project/CPU31/CPU31.srcs/sources_1/new
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/sources_1/new/gpr.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/sources_1/new/gpr.v
+update_compile_order -fileset sources_1
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/datapath/gpr.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/datapath/gpr.v
+update_compile_order -fileset sources_1
+add_files -norecurse D:/digital_logic/project/CPU31/CPU31.srcs/datapath/ALU.v
+update_compile_order -fileset sources_1
+remove_files D:/digital_logic/project/CPU31/CPU31.srcs/sources_1/new/gpr.v
+file delete -force D:/digital_logic/project/CPU31/CPU31.srcs/sources_1/new/gpr.v
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/datapath/ext.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/datapath/ext.v
+update_compile_order -fileset sources_1
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/datapath/dm.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/datapath/dm.v
+update_compile_order -fileset sources_1
+file mkdir D:/digital_logic/project/CPU31/CPU31.srcs/sources_1/new
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/sources_1/new/mux_dst.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/sources_1/new/mux_dst.v
+update_compile_order -fileset sources_1
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/datapath/mux.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/datapath/mux.v
+update_compile_order -fileset sources_1
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/controller/dec.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/controller/dec.v
+update_compile_order -fileset sources_1
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/controller/ref.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/controller/ref.v
+update_compile_order -fileset sources_1
+remove_files D:/digital_logic/project/CPU31/CPU31.srcs/controller/ref.v
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v
+update_compile_order -fileset sources_1
+remove_files D:/digital_logic/project/CPU31/CPU31.srcs/sources_1/new/mux_dst.v
+file delete -force D:/digital_logic/project/CPU31/CPU31.srcs/sources_1/new/mux_dst.v
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/datapath/mux5.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/datapath/mux5.v
+update_compile_order -fileset sources_1
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/datapath/ext5.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/datapath/ext5.v
+update_compile_order -fileset sources_1
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/datapath/ext18.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/datapath/ext18.v
+update_compile_order -fileset sources_1
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/datapath/II.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/datapath/II.v
+update_compile_order -fileset sources_1
+remove_files D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v
+update_compile_order -fileset sources_1
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/cpu31.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/cpu31.v
+update_compile_order -fileset sources_1
+add_files -norecurse D:/digital_logic/project/CPU31/CPU31.srcs/cpu31.v
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/datapath/add.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/datapath/add.v
+update_compile_order -fileset sources_1
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/datapath/add4.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/datapath/add4.v
+update_compile_order -fileset sources_1
+add_files -norecurse D:/digital_logic/project/CPU31/CPU31.srcs/datapath/pcreg.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+add_files -norecurse D:/digital_logic/project/CPU31/CPU31.srcs/datapath/Asynchronous_D_FF.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/datapath/nPC.v w ]
+add_files D:/digital_logic/project/CPU31/CPU31.srcs/datapath/nPC.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+remove_files D:/digital_logic/project/CPU31/CPU31.srcs/datapath/ifu.v
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/digital_logic/project/CPU31/CPU31.srcs/system.v w ]
+add_files -fileset sim_1 D:/digital_logic/project/CPU31/CPU31.srcs/system.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation -noclean_dir
+launch_simulation -noclean_dir
+launch_simulation -noclean_dir
+launch_simulation -noclean_dir
+launch_simulation -noclean_dir
+source system.tcl
+run all
+close_sim
+launch_simulation -noclean_dir
+source system.tcl
+run all
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} 54
+restart
+run all
+step
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} -line 54
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} 54
+restart
+run all
+close_sim
+launch_simulation -noclean_dir
+source system.tcl
+step
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} -line 54
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} 58
+close_sim
+launch_simulation -noclean_dir
+source system.tcl
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} -line 58
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} 55
+close_sim
+launch_simulation -noclean_dir
+source system.tcl
+step
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} -line 55
+run all
+close_sim
+launch_simulation -noclean_dir
+source system.tcl
+restart
+run all
+restart
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+restart
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} 58
+run all
+step
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} -line 58
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+restart
+add_wave {{/system/cpu}} 
+restart
+run all
+close_sim
+launch_simulation -noclean_dir
+source system.tcl
+add_wave {{/system/cpu}} 
+add_wave {{/system/datamemory}} 
+restart
+run all
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v} 78
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v} 77
+restart
+run all
+run all
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v} -line 77
+run all
+restart
+run all
+run all
+close_sim
+launch_simulation -noclean_dir
+source system.tcl
+run all
+close_sim
+launch_simulation -noclean_dir
+source system.tcl
+run all
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} 62
+restart
+run all
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v} -line 78
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} 70
+run all
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} -line 62
+step
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} 108
+run all
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} -line 70
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+run all
+step
+step
+step
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v} 79
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v} 78
+run all
+run all
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v} -line 78
+step
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v} -line 79
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+close_sim
+launch_simulation -noclean_dir
+source system.tcl
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} -line 108
+run all
+close_sim
+launch_simulation -noclean_dir
+source system.tcl
+close_sim
+launch_simulation -noclean_dir
+source system.tcl
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} 62
+restart
+run all
+step
+step
+step
+step
+step
+step
+step
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v} 79
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/datapath/nPC.v} 29
+run all
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/datapath/nPC.v} -line 29
+close_sim
+launch_simulation -noclean_dir
+source system.tcl
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v} -line 79
+run all
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} -line 62
+run all
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} 62
+restart
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+restart
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/controller/dec.v} 59
+run all
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/controller/dec.v} -line 59
+step
+step
+step
+run all
+run all
+restart
+add_wave {{/system/cpu}} 
+add_wave {{/system/datamemory}} 
+run all
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} -line 62
+run all
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v} 79
+restart
+run all
+run all
+step
+step
+step
+step
+step
+restart
+run all
+run all
+step
+close_sim
+launch_simulation -noclean_dir
+source system.tcl
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+step
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/datapath/mux.v} 29
+step
+step
+run all
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/datapath/mux.v} -line 29
+remove_bps -all
+restart
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v} 79
+close_sim
+launch_simulation -noclean_dir
+source system.tcl
+run all
+step
+step
+step
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v} -line 79
+run all
+add_wave {{/system/cpu}} 
+add_wave {{/system/datamemory}} 
+restart
+run all
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/datapath/nPC.v} 32
+restart
+run all
+step
+step
+step
+step
+step
+step
+step
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} 62
+restart
+run all
+run all
+step
+step
+add_bp {D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v} 79
+restart
+run all
+run all
+run all
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+close_sim
+launch_simulation -noclean_dir
+source system.tcl
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/controller/CU.v} -line 79
+run all
+run all
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/datapath/nPC.v} -line 32
+run all
+add_wave {{/system/datamemory}} 
+add_wave {{/system/cpu}} 
+restart
+run all
+remove_bps -file {D:/digital_logic/project/CPU31/CPU31.srcs/system.v} -line 62
+run all
+add_wave {{/system/cpu/uPC}} 
+restart
+run all
+close_sim
+launch_simulation -noclean_dir
+source system.tcl
+add_wave {{/system/cpu}} 
+add_wave {{/system/cpu/uPC}} 
+restart
+run all
+close_sim

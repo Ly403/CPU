@@ -1,0 +1,53 @@
+# do {post_system_compile.do} 
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Asynchronous_D_FF
+# -- Compiling module gpr
+# -- Compiling module nPC
+# -- Compiling module add4
+# -- Compiling module mux5
+# -- Compiling module mux
+# -- Compiling module II
+# -- Compiling module ext5
+# -- Compiling module ext18
+# -- Compiling module ext
+# -- Compiling module dec
+# -- Compiling module CU
+# -- Compiling module alu
+# -- Compiling module add
+# -- Compiling module pcreg
+# 
+# Top level modules:
+# 	gpr
+# 	nPC
+# 	add4
+# 	mux5
+# 	mux
+# 	II
+# 	ext5
+# 	ext18
+# 	ext
+# 	dec
+# 	CU
+# 	alu
+# 	add
+# 	pcreg
+# Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module dist_mem_gen_v8_0_10
+# 
+# Top level modules:
+# 	dist_mem_gen_v8_0_10
+# Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module imem
+# -- Compiling module dm
+# -- Compiling module cpu31
+# -- Compiling module post_system
+# 
+# Top level modules:
+# 	post_system
+# Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl

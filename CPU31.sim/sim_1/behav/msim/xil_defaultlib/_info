@@ -1,0 +1,377 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\digital_logic\project\CPU31\CPU31.sim\sim_1\behav
+T_opt
+VHS5n;iAXJ;`YnZ8akGobL1
+04 11 4 work post_system fast 0
+04 4 4 work glbl fast 0
+=1-5405db035ab0-62b85ccf-132-4820
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xil_defaultlib -L dist_mem_gen_v8_0_10 +acc
+n@_opt
+OE;O;10.1c;51
+vadd
+I7bB>:]9=GkekGMSa48zH31
+Vil@IK>2MTPGQN=d30Qi`;2
+Z1 dD:\digital_logic\project\CPU31\CPU31.sim\sim_1\behav
+w1653720874
+8../../../CPU31.srcs/datapath/add.v
+F../../../CPU31.srcs/datapath/add.v
+L0 23
+Z2 OE;L;10.1c;51
+r1
+31
+Z3 !s108 1656249545.940000
+Z4 !s107 ../../../CPU31.srcs/datapath/pcreg.v|../../../CPU31.srcs/datapath/add.v|../../../CPU31.srcs/datapath/ALU.v|../../../CPU31.srcs/controller/CU.v|../../../CPU31.srcs/controller/dec.v|../../../CPU31.srcs/datapath/ext.v|../../../CPU31.srcs/datapath/ext18.v|../../../CPU31.srcs/datapath/ext5.v|../../../CPU31.srcs/datapath/II.v|../../../CPU31.srcs/datapath/mux.v|../../../CPU31.srcs/datapath/mux5.v|../../../CPU31.srcs/datapath/add4.v|../../../CPU31.srcs/datapath/nPC.v|../../../CPU31.srcs/datapath/gpr.v|../../../CPU31.srcs/datapath/Asynchronous_D_FF.v|
+Z5 !s90 -incr|-work|xil_defaultlib|../../../CPU31.srcs/datapath/Asynchronous_D_FF.v|../../../CPU31.srcs/datapath/gpr.v|../../../CPU31.srcs/datapath/nPC.v|../../../CPU31.srcs/datapath/add4.v|../../../CPU31.srcs/datapath/mux5.v|../../../CPU31.srcs/datapath/mux.v|../../../CPU31.srcs/datapath/II.v|../../../CPU31.srcs/datapath/ext5.v|../../../CPU31.srcs/datapath/ext18.v|../../../CPU31.srcs/datapath/ext.v|../../../CPU31.srcs/controller/dec.v|../../../CPU31.srcs/controller/CU.v|../../../CPU31.srcs/datapath/ALU.v|../../../CPU31.srcs/datapath/add.v|../../../CPU31.srcs/datapath/pcreg.v|
+Z6 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!i10b 1
+!s100 0@:TTY:k^Ob>A3k1f=F2f3
+!s85 0
+vadd4
+IRm[=;M:eg9U:2QBLCn9Dg3
+VAjSH4keQ^>gQTeilOc4Bz1
+R1
+w1653971697
+8../../../CPU31.srcs/datapath/add4.v
+F../../../CPU31.srcs/datapath/add4.v
+L0 23
+R2
+r1
+31
+R3
+R4
+R5
+R6
+!i10b 1
+!s100 0eGg?Lm7>WfUEgib:?=Lm2
+!s85 0
+valu
+I1zHRMf0WoLOhiMQz^oF:g1
+V8^?AV=:AFA>m=@L>KjEdT2
+R1
+w1653912525
+8../../../CPU31.srcs/datapath/ALU.v
+F../../../CPU31.srcs/datapath/ALU.v
+L0 23
+R2
+r1
+31
+R3
+R4
+R5
+R6
+!i10b 1
+!s100 ZY;f3UeMn0DLoc_]Z6]7I1
+!s85 0
+vAsynchronous_D_FF
+I[JmEAOZ=GnT=0k:?1OgdY1
+Vemc_WUK<AljAlhehNZ@Id0
+R1
+w1653873580
+8../../../CPU31.srcs/datapath/Asynchronous_D_FF.v
+F../../../CPU31.srcs/datapath/Asynchronous_D_FF.v
+L0 23
+R2
+r1
+31
+R3
+R4
+R5
+R6
+n@asynchronous_@d_@f@f
+!i10b 1
+!s100 z0oIFE@FHLPNbOFgh57Ck2
+!s85 0
+vcpu31
+I@B@bWSn1?1S>_dai5_d2D0
+Vm6`_M9TMJiMbGk2SX_7B=3
+R1
+w1653971516
+8../../../CPU31.srcs/cpu31.v
+F../../../CPU31.srcs/cpu31.v
+L0 23
+R2
+r1
+31
+Z7 !s108 1656249546.084000
+Z8 !s107 ../../../CPU31.srcs/post_system.v|../../../CPU31.srcs/cpu31.v|../../../CPU31.srcs/datapath/dm.v|../../../CPU31.srcs/sources_1/ip/imem/sim/imem.v|
+Z9 !s90 -incr|-work|xil_defaultlib|../../../CPU31.srcs/sources_1/ip/imem/sim/imem.v|../../../CPU31.srcs/datapath/dm.v|../../../CPU31.srcs/cpu31.v|../../../CPU31.srcs/post_system.v|
+R6
+!i10b 1
+!s100 fcKj4?OAaZl>CnLHS3c>Y3
+!s85 0
+vCU
+I@Sh^dg^T4_7=[^a8;SoR:2
+VI2Ef>IfK9QhRdkjXBidZF2
+R1
+w1653876926
+8../../../CPU31.srcs/controller/CU.v
+F../../../CPU31.srcs/controller/CU.v
+L0 21
+R2
+r1
+31
+R3
+R4
+R5
+R6
+n@c@u
+!i10b 1
+!s100 8ZTMRVog;liFRlBTcJ>AO1
+!s85 0
+vdec
+INT@mbFW10l46Gfl<`nXP@0
+V3IMzSKgZ0MkoZfJjXhk;n1
+R1
+w1653925941
+8../../../CPU31.srcs/controller/dec.v
+F../../../CPU31.srcs/controller/dec.v
+L0 53
+R2
+r1
+31
+R3
+R4
+R5
+R6
+!i10b 1
+!s100 RRAaD^I[>KQ^8NQOn8[LC2
+!s85 0
+vdm
+Il:f1i>4Zb?_zEIE<QhS`c0
+V4[<hikkDQz4AVGPA0F8;z3
+R1
+w1655550703
+8../../../CPU31.srcs/datapath/dm.v
+F../../../CPU31.srcs/datapath/dm.v
+L0 23
+R2
+r1
+31
+R7
+R8
+R9
+R6
+!i10b 1
+!s100 NURA?M>Y<A:O;GK27I1@o2
+!s85 0
+vext
+I=300fHnTRAoWeMj`Rnz=13
+VKlfKI=LBdIE1DYKa=H>YU3
+R1
+w1653739920
+8../../../CPU31.srcs/datapath/ext.v
+F../../../CPU31.srcs/datapath/ext.v
+L0 23
+R2
+r1
+31
+R3
+R4
+R5
+R6
+!i10b 1
+!s100 @d5P=7ZP<]lO0k:5@g2FO2
+!s85 0
+vext18
+In?^;Wg70@:VZY6FJRQU[g3
+VND>m?98T<liKLBcVaZZ]C3
+R1
+w1653720798
+8../../../CPU31.srcs/datapath/ext18.v
+F../../../CPU31.srcs/datapath/ext18.v
+L0 23
+R2
+r1
+31
+R3
+R4
+R5
+R6
+!i10b 1
+!s100 Cbo=lDeO<6QACn03UVf2g1
+!s85 0
+vext5
+Im7h<Nb9@nVlHOjgEA?A3c0
+V@6Xg=_=dokJ`[Lj6I<FHC1
+R1
+w1653723453
+8../../../CPU31.srcs/datapath/ext5.v
+F../../../CPU31.srcs/datapath/ext5.v
+L0 23
+R2
+r1
+31
+R3
+R4
+R5
+R6
+!i10b 1
+!s100 zEUVVjT7i=`d;^iUDACIS2
+!s85 0
+vglbl
+Ig9:5V7djO725HV7=_TY__1
+VM[9mS]S:KA1i4VeCMX35[3
+R1
+w1464879896
+8glbl.v
+Fglbl.v
+L0 6
+R2
+r1
+31
+R6
+!i10b 1
+!s100 c1=:[Hh_:X5jcHNWRn41V0
+!s85 0
+!s108 1656249546.137000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+vgpr
+ICm[2;Z`VPWaM<7Lz[HljY2
+VM8]YSR3;Nf1iAK=:_=1Io3
+R1
+w1655550648
+8../../../CPU31.srcs/datapath/gpr.v
+F../../../CPU31.srcs/datapath/gpr.v
+L0 23
+R2
+r1
+31
+R3
+R4
+R5
+R6
+!i10b 1
+!s100 k@d[jn[]>NN;3@gAcL?`o0
+!s85 0
+vII
+I^?12enQTQQzNkzTM[Cona3
+VZCj=Z=ng9kD9ik2nnK6[F0
+R1
+w1653971617
+8../../../CPU31.srcs/datapath/II.v
+F../../../CPU31.srcs/datapath/II.v
+L0 23
+R2
+r1
+31
+R3
+R4
+R5
+R6
+n@i@i
+!i10b 1
+!s100 n=nLO>=YB0mWe<=6AZ`iA2
+!s85 0
+vimem
+ILR9N1MCjEnY3EbP^Fckh^3
+VM?meQPOmCS0zaU[nECLUh3
+R1
+w1656249027
+8../../../CPU31.srcs/sources_1/ip/imem/sim/imem.v
+F../../../CPU31.srcs/sources_1/ip/imem/sim/imem.v
+L0 56
+R2
+r1
+31
+R7
+R8
+R9
+R6
+!i10b 1
+!s100 TR0hchhKf6EeAlMWR9SFm3
+!s85 0
+vmux
+IHon<32Q`0cXL<7cYV=@DP3
+VDQU4LV6Z5aEiLcEOig]`80
+R1
+w1653720607
+8../../../CPU31.srcs/datapath/mux.v
+F../../../CPU31.srcs/datapath/mux.v
+L0 23
+R2
+r1
+31
+R3
+R4
+R5
+R6
+!i10b 1
+!s100 5@N87iM4BDnX9VU8`:7W33
+!s85 0
+vmux5
+I30j8I2nTT8ifBhn?;E=5N1
+VMlbgFLO0@b0Og[m6Q1Q:83
+R1
+w1655539077
+8../../../CPU31.srcs/datapath/mux5.v
+F../../../CPU31.srcs/datapath/mux5.v
+L0 23
+R2
+r1
+31
+R3
+R4
+R5
+R6
+!i10b 1
+!s100 l;TFU69:>=dKk@9Ee6a3b3
+!s85 0
+vnPC
+Id3cX@l]::08:`c<UBcmh21
+VoA:8A>ddiD_M^8]3zL[zg0
+R1
+w1653969680
+8../../../CPU31.srcs/datapath/nPC.v
+F../../../CPU31.srcs/datapath/nPC.v
+L0 23
+R2
+r1
+31
+R3
+R4
+R5
+R6
+nn@p@c
+!i10b 1
+!s100 gY^6ioTm<o]l<QhThQfzL0
+!s85 0
+vpcreg
+I>7^W_aO::H@a4fajl0]2i2
+VKzeI@<?EE>:b;l@1d[Zkh1
+R1
+w1653709061
+8../../../CPU31.srcs/datapath/pcreg.v
+F../../../CPU31.srcs/datapath/pcreg.v
+L0 23
+R2
+r1
+31
+R3
+R4
+R5
+R6
+!i10b 1
+!s100 KZT5Co6OT]1keYoP[>=UH1
+!s85 0
+vpost_system
+IPAdUOYPzADWz]MZZk9jTh0
+VXJS[9j2]FRMaWmR<gLd>k2
+R1
+w1655539869
+8../../../CPU31.srcs/post_system.v
+F../../../CPU31.srcs/post_system.v
+L0 23
+R2
+r1
+31
+R7
+R8
+R9
+R6
+!i10b 1
+!s100 IF;;i<N[I0RQT<2h6jSAa1
+!s85 0
